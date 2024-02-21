@@ -1,10 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Raleway';
+}
 #wrapper{
     height:100vh;
     overflow-x: hidden;
     overflow-y: auto;
+}
+.container{
+    width:100%;
+    display:grid;
+    grid-template-columns: 2fr repeat(4, 1fr) 2fr;
+    justify-content: space-around;
+    gap:2rem;
+}
+.nav_ele{
+    display:inline-block;
+    padding: 1em 0em;
+    font-size:1.5em;
+    color: #777C85;
+    font-weight: 600;
+}
+.selected{
+    color: #4E5DC0;
 }
