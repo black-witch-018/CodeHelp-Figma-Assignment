@@ -17,9 +17,12 @@ body{
     width:100%;
     display:grid;
     grid-template-columns: 2fr repeat(4, 1fr) 2fr;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     gap:2rem;
     margin:2em auto;
+    position:relative;
+    padding:0 1em;
+    margin-bottom:3em;
 }
 .nav_ele{
     display:inline-block;
@@ -30,7 +33,7 @@ body{
 }
 .selected{
     color: #4E5DC0;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .btn{
     background-color: #4E5DC0;
@@ -39,4 +42,26 @@ body{
     width:80%;
     text-align: center;
     /* padding:50% 50%; */
+}
+.container hr{
+    color: #4E5DC0;
+    /* width: 72px; */
+    width:5%;
+    position: absolute;
+    left: 20em;
+    top: 74%;
+}
+.main h2{
+    display:inline-block;
+}
+.main hr{
+    position: absolute;
+    top:5%;
+    width:14%;
+    /* top:30%; */
+}
+.main{
+    margin:0 auto;
+    position:relative;
+    padding:3em;
 }
