@@ -66,6 +66,10 @@ body{
     left: 20em;
     top: 74%;
 }
+.pos{
+    position: relative;
+    top: 4em;
+}
 .left{
     display: inline-block;
     width:45%;
@@ -97,7 +101,7 @@ body{
 }
 .sec_r{
     position:relative;
-    top:-8em; 
+    top:-4em; 
 }
 .right h2{
     font-size: 2.5em;
