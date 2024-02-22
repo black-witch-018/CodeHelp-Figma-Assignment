@@ -55,6 +55,7 @@ body{
     height: 75%;
     position: relative;
     top: 8px;
+    left:15%;
     /* padding:50% 50%; */
 }
 .container hr{
