@@ -27,6 +27,10 @@ body{
     padding:0 1em;
     margin-bottom:3em;
 }
+.container img{
+    position: relative;
+    left:11%;
+}
 .nav_ele{
     display:inline-block;
     padding: 1em 0em;
