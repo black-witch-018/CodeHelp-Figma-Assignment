@@ -10,6 +10,7 @@
 }
 body{
     font-family: 'Raleway';
+    background-color: whitesmoke;
 }
 #wrapper{
     height:100vh;
