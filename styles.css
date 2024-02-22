@@ -51,12 +51,3 @@ body{
     left: 20em;
     top: 74%;
 }
-.main h2{
-    display:inline-block;
-}
-.main hr{
-    position: absolute;
-    top:5%;
-    width:14%;
-    /* top:30%; */
-}
