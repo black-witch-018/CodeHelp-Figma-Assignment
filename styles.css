@@ -53,7 +53,7 @@ body{
 }
 .left{
     display: inline-block;
-    width:50%;
+    width:45%;
     margin:2em;
     margin-left:3em;
 }
@@ -68,4 +68,29 @@ body{
 }
 .left h2{
     font-size: 2.5em;
+}
+.right{
+    display: inline-block;
+    width:45%;
+    position:relative;
+    top:6em;
+}
+.sec_l{
+    margin-top:15em;
+}
+.sec_r{
+    position:relative;
+    top:-8em; 
+}
+.right h2{
+    font-size: 2.5em;
+}
+.right p{
+    color: #777C85;
+    font-size:1.5em;
+}
+.right hr{
+    margin-top:0.5em;
+    margin-bottom:2em;
+    width:47%;
 }
