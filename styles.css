@@ -148,6 +148,11 @@ footer{
     font-family: 'Manrope';
     row-gap: 10%;
 }
+.logo{
+    position:relative;
+    top: 2em;
+    left: 2em;
+}
 .purple{
     color:#4E5DC0;
 }
