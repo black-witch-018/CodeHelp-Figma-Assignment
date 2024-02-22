@@ -43,6 +43,13 @@ body{
     color:white;
     width:80%;
     text-align: center;
+    width: 70%;
+    display: inline-block;
+    height: 80%;
+    padding: 15px;
+    height: 75%;
+    position: relative;
+    top: 8px;
     /* padding:50% 50%; */
 }
 .container hr{
@@ -132,4 +139,7 @@ footer{
 }
 .purple{
     color:#4E5DC0;
+}
+.underline{
+    text-decoration: underline;
 }
